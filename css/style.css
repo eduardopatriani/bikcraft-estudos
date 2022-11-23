@@ -17,6 +17,11 @@
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
+@import "./bicicletas/nimbus.css";
+
+/* Bicicletas unitaria */
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 
 /* Seguros */
 @import "./seguros/seguros.css";
