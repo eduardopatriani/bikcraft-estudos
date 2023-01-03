@@ -9,14 +9,16 @@
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
-
+    <link rel="preload" href="./css/style.css" as="Style" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <header class="header-bg">
       <div class="header container">
-        <a href="./"><img src="./img/bikcraft.svg" alt="Bikcraft" /></a>
+        <a href="./"
+          ><img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft"
+        /></a>
 
         <nav aria-label="primaria">
           <ul class="header-menu font-1-m cor-0">
@@ -40,12 +42,16 @@
           </p>
           <a class="botao" href="./bicicletas.html">Escolha a sua</a>
         </div>
-        <div>
+        <picture>
+          <source
+            media="(max-width: 800px)"
+            srcset="./img/bicicletas/nimbus.jpg"
+          />
           <img
             src="./img/fotos/introducao.jpg"
             alt="Bicicleta elétrica preta."
           />
-        </div>
+        </picture>
       </div>
     </main>
 
@@ -214,18 +220,37 @@
               <li><a href="./seguros.html">Seguros</a></li>
               <li><a href="./contato.html">Contato</a></li>
               <li><a href="./termos.html">Termos e Condições</a></li>
+            </ul>
           </nav>
         </div>
         <div class="footer-redes">
           <ul>
             <li>
-              <a href="./"><img src="./img/redes/instagram.svg" alt="" /></a>
+              <a href="./"
+                ><img
+                  src="./img/redes/instagram.svg"
+                  width="32"
+                  height="32"
+                  alt="instagram"
+              /></a>
             </li>
             <li>
-              <a href="./"><img src="./img/redes/facebook.svg" alt="" /></a>
+              <a href="./"
+                ><img
+                  src="./img/redes/facebook.svg"
+                  width="32"
+                  height="32"
+                  alt="facebook"
+              /></a>
             </li>
             <li>
-              <a href="./"><img src="./img/redes/youtube.svg" alt="" /></a>
+              <a href="./"
+                ><img
+                  src="./img/redes/youtube.svg"
+                  width="32"
+                  height="32"
+                  alt="youtube"
+              /></a>
             </li>
           </ul>
         </div>
