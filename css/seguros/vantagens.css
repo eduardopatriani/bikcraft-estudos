@@ -1,5 +1,5 @@
-.seguros-bg {
-  background: var(--cor-12);
+.vantagens-bg {
+  background-color: var(--cor-12);
 }
 
 .vantagens {
@@ -13,15 +13,12 @@
 
 .vantagens ul {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(280px, max-content)
-  ); /*auto-fit = autodefinir as colunas e minimax redimensionar as colunas*/
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
   gap: 40px 80px;
 }
 
-.vantagens img,
-.vantagens h3 {
+.vantagens h3,
+.vantagens img {
   margin-bottom: 8px;
 }
 
